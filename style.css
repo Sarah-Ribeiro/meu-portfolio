@@ -1,3 +1,5 @@
+/* Mudança de estilos no site como um todo, para que se siga um padrão */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +11,7 @@ body {
   background-color: darkgray;
 }
 
-/* Header da página */
+/* Header usada em todas as páginas */
 
 .introduction {
   display: flex;
@@ -32,7 +34,7 @@ body {
   text-decoration: underline;
 }
 
-/* Main About */
+/* O Main da página Sobre */
 
 .main-content {
   display: flex;
@@ -42,6 +44,8 @@ body {
 
   margin: 50px;
 }
+
+/* Ajuste da imagem de perfil da imagem do Sobre */
 
 .profile {
   width: 50%;
@@ -78,7 +82,7 @@ body {
   justify-content: center;
 }
 
-/* Projetos */
+/* Aqui é o CSS da página de projetos */
 
 .main-projects {
   display: flex;
@@ -103,6 +107,8 @@ body {
 
   height: 50vh;
 }
+
+/* Caixa criada para adicionar estilo junto a imagem dos projetos */
 
 .project {
   background-color: #9d9d9d;
@@ -145,6 +151,8 @@ body {
   font-size: 12px;
 }
 
+/* Estilos adicionais usados no link */
+
 .project a:hover {
   text-decoration: underline;
 }
@@ -156,7 +164,7 @@ body {
   border-radius: 15px;
 }
 
-/* Social Media */
+/* CSS da página de Social Media */
 
 .container {
   display: flex;
@@ -195,6 +203,7 @@ ul li a {
 ul li a:hover {
   background: #909090;
 }
+/* Uma linha divisora usada dentro da página sobre para dar um estilo adicional a página */
 
 .line-divider-index {
   margin-top: 50px;
@@ -208,6 +217,8 @@ ul li a:hover {
 
   opacity: 0.5;
 }
+
+/* CSS para a página de certificados */
 
 .certificados {
   display: flex;
