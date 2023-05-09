@@ -1,6 +1,6 @@
 # Caso Vinheria Agnello
 
-<img src="./img/portfolio.jpg" />
+<img src="./img/portfolio-1.jpg" />
 
 ## Descrição
 
