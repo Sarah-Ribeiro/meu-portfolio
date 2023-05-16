@@ -263,3 +263,79 @@ ul li a:hover {
   width: 400px;
   height: 300px;
 }
+
+/* Contato */
+
+/* Inputs */
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#form h1 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  margin: 50px 0 50px 0;
+}
+
+#form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  
+  gap: 10px;
+
+  width: 100%;
+}
+
+.contact p {
+  display: flex;
+
+  float: left;
+}
+
+input {
+  border: none;
+
+  padding: 10px;
+
+  border-radius: 5px;
+
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3));
+}
+
+input:focus {
+  outline: none;
+}
+
+.contact a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin-top: 30px;
+
+  text-decoration: none;
+
+  color: #000;
+
+  font-size: 14px;
+
+  border: 1px solid #4f4f4f;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
